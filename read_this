@@ -1,0 +1,19 @@
+1. create a virtual environmen in the directory you're going to start your project
+    ex - if my project is going to be in the project directory then in the project
+    directory -
+    python3 -m venv env ( here env is the name of the virtual environment directory)
+2. After you have created  a virtual environkent then you must activate it:
+    source env/bin/activate
+3. After activating the  virual environment you can use the django-admin command.
+    Make sure you have installed django with the command - python -m django version
+    Now run the command - django-admin startproject mysite
+    This creates a new folder name mysite which is a django project
+4. manage.py & settings.py
+    These are some of the default files that come with the django project
+    Inside your mysite directory you will have one more mysite directory and a 
+    manage.py file. 
+5. Now install django in the directory where mysite is stored using the command -
+    pip install django
+6. Try testing the django installation by going into the directory where manage.py
+    is present. Then use the command - python manage.py runserver
+7. Please refer the django documentation for troubleshooting.
